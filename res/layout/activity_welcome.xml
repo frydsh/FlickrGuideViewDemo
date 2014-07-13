@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_welcome_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.yahoo.mobile.client.android.flickr.ui.widget.ParallaxBackgroundView
+        android:id="@+id/activity_welcome_background_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/activity_welcome_flickr_logo"
+        android:layout_width="@dimen/welcome_screen_flickr_logo_width"
+        android:layout_height="@dimen/welcome_screen_flickr_logo_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_screen_padding"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_flickr_white_large" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_welcome_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/activity_welcome_page_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="25.0dip"
+        android:layout_above="@+id/activity_welcome_get_started_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20.0dip"
+        android:gravity="center" >
+
+        <View
+            android:layout_width="8.0dip"
+            android:layout_height="8.0dip"
+            android:background="@drawable/viewpager_indicator_bullet_highlighted" />
+
+        <View
+            android:layout_width="8.0dip"
+            android:layout_height="8.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/viewpager_indicator_bullet_normal" />
+
+        <View
+            android:layout_width="8.0dip"
+            android:layout_height="8.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/viewpager_indicator_bullet_normal" />
+
+        <View
+            android:layout_width="8.0dip"
+            android:layout_height="8.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/viewpager_indicator_bullet_normal" />
+
+        <View
+            android:layout_width="8.0dip"
+            android:layout_height="8.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/viewpager_indicator_bullet_normal" />
+    </LinearLayout>
+
+    <com.yahoo.mobile.client.android.flickr.ui.CustomFontButton
+        android:id="@+id/activity_welcome_get_started_button"
+        style="@style/Widget.Button.Flickr.H1"
+        android:layout_width="230.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/welcome_screen_padding"
+        android:background="@drawable/default_rounded_rect_button"
+        android:gravity="center"
+        android:text="@string/welcome_get_started_button_text"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

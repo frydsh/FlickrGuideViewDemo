@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20.0dip" >
+
+        <com.yahoo.mobile.client.android.flickr.ui.CustomFontTextView
+            android:id="@+id/fragment_welcome_page_primary_text_view"
+            style="@style/TextAppearance.Flickr.H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginRight="30.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="0.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:textColor="@color/solid_white"
+            android:textSize="@dimen/welcome_page_text_size" />
+
+        <ImageView
+            android:id="@+id/activity_welcome_animation_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/fragment_welcome_page_primary_text_view"
+            android:layout_marginTop="10.0dip"
+            android:antialias="true"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+</FrameLayout>

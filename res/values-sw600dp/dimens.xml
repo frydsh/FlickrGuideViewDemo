@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_page_text_size">30.0sp</dimen>
+    <dimen name="welcome_screen_flickr_logo_height">65.0dip</dimen>
+    <dimen name="welcome_screen_flickr_logo_width">125.0dip</dimen>
+    <dimen name="welcome_screen_padding">180.0dip</dimen>
+</resources>

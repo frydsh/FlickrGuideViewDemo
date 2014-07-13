@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_font_action_button_padding">10.0dip</dimen>
+    <dimen name="custom_font_button_padding">15.0dip</dimen>
+    <dimen name="font_h0_size">18.0sp</dimen>
+    <dimen name="font_h1_size">16.0sp</dimen>
+    <dimen name="font_h2_size">16.0sp</dimen>
+    <dimen name="font_h3_size">14.0sp</dimen>
+    <dimen name="font_h4_size">14.0sp</dimen>
+    <dimen name="font_h5_size">11.0sp</dimen>
+    <dimen name="rounded_rect_button_radius">4.0dip</dimen>
+    <dimen name="welcome_page_text_size">24.0sp</dimen>
+    <dimen name="welcome_screen_flickr_logo_height">50.0dip</dimen>
+    <dimen name="welcome_screen_flickr_logo_width">100.0dip</dimen>
+    <dimen name="welcome_screen_padding">60.0dip</dimen>
+</resources>

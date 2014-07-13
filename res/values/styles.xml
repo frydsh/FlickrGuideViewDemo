@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FlickrBaseTheme" parent="@android:style/Theme.Black.NoTitleBar" />
+
+    <style name="FlickrTheme" parent="@style/FlickrBaseTheme">
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <style name="TextAppearance.Flickr.H0" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h0_size</item>
+        <item name="font">@string/font_proxima_nova_bold</item>
+    </style>
+    <style name="TextAppearance.Flickr.H1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h1_size</item>
+        <item name="font">@string/font_proxima_nova_bold</item>
+    </style>
+    <style name="TextAppearance.Flickr.H2" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h2_size</item>
+        <item name="font">@string/font_proxima_nova_regular</item>
+    </style>
+    <style name="TextAppearance.Flickr.H3" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h3_size</item>
+        <item name="font">@string/font_proxima_nova_bold</item>
+    </style>
+    <style name="TextAppearance.Flickr.H4" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h4_size</item>
+        <item name="font">@string/font_proxima_nova_regular</item>
+    </style>
+    <style name="TextAppearance.Flickr.H5" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_h5_size</item>
+        <item name="font">@string/font_proxima_nova_regular</item>
+    </style>
+   
+    <style name="Widget.Button.Flickr.H0" parent="@style/TextAppearance.Flickr.H0">
+        <item name="android:padding">@dimen/custom_font_button_padding</item>
+    </style>
+    <style name="Widget.Button.Flickr.H1" parent="@style/TextAppearance.Flickr.H1">
+        <item name="android:padding">@dimen/custom_font_button_padding</item>
+    </style>
+    <style name="Widget.Button.Flickr.H2" parent="@style/TextAppearance.Flickr.H2">
+        <item name="android:padding">@dimen/custom_font_button_padding</item>
+    </style>
+
+</resources>
